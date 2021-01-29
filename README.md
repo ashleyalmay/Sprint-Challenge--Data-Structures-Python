@@ -26,7 +26,7 @@ This Sprint Challenge is split into three parts:
 
 ### Minimum Viable Product
 
-#### Task 1. Implement a Ring Buffer Data Structure
+#### Task 1. Implement a Ring Buffer Data Structure[done]
 
 A ring buffer is a non-growable buffer with a fixed size. When the ring buffer is full and a new element is inserted, the oldest element in the ring buffer is overwritten with the newest element. This kind of data structure is very useful for use cases such as storing logs and history information, where you typically want to store information up until it reaches a certain age, after which you don't care about it anymore and don't mind seeing it overwritten by newer data.
 
@@ -56,7 +56,7 @@ buffer.append('f')
 buffer.get()   # should return ['d', 'e', 'f']
 ```
 
-#### Task 2. Runtime Optimization
+#### Task 2. Runtime Optimization[done]
 
 ***!Important!*** If you are running this using PowerShell by clicking on the green play button, you will get an error that `names1.txt` is not found.  To resolve this, run it, get the error, then `cd` into the `names` directory in the `python` terminal that opens in VSCode.
 
@@ -69,7 +69,7 @@ Six seconds is an eternity so you've been tasked with speeding up the code. Can 
 (Hint: You might try importing a data structure you built during the week)
 
 
-#### Task 3. Reverse a Linked List
+#### Task 3. Reverse a Linked List[done]
 
 Inside of the `reverse` directory, you'll find a basic implementation of a Singly Linked List. _Without_ making it a Doubly Linked List (adding a tail attribute), complete the `reverse_list()` function within `reverse/reverse.py` reverse the contents of the list using recursion, *not a loop.*
 
@@ -86,7 +86,7 @@ While credit will be given for a functional solution, only optimal solutions wil
 
 #### Stretch 
 
-* Say your code from `names.py` is to run on an embedded computer with very limited RAM. Because of this, memory is extremely constrained and you are only allowed to store names in arrays (i.e. Python lists). How would you go about optimizing the code under these conditions? Try it out and compare your solution to the original runtime. (If this solution is less efficient than your original solution, include both and label the strech solution with a comment)
+* Say your code from `names.py` is to run on an embedded computer with very limited RAM. Because of this, memory is extremely constrained and you are only allowed to store names in arrays (i.e. Python lists). How would you go about optimizing the code under these conditions? Try it out and compare your solution to the original runtime. (If this solution is less efficient than your original solution, include both and label the stretch solution with a comment)
 
 
 ### Rubric
